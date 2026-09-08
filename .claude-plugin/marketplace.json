@@ -1,0 +1,21 @@
+{
+    "$schema": "https://code.claude.com/schemas/marketplace-v1.json",
+    "name": "its-plugins",
+    "description": "Ian T Small's personal Claude Code plugins, usable across projects and organizations.",
+    "owner": {
+        "name": "Ian T Small",
+        "url": "https://github.com/iantsmall"
+    },
+    "plugins": [
+        {
+            "name": "marquet-playbook",
+            "source": "./plugins/marquet-playbook",
+            "description": "Shared Claude working-practice guidance based on the Marquet leadership-language framework (Turn the Ship Around, Leadership Is Language) — one skill per play (control the clock, commit vs comply, red/blue work, intent-based language).",
+            "version": "0.1.0",
+            "author": {
+                "name": "Ian T Small",
+                "url": "https://github.com/iantsmall"
+            }
+        }
+    ]
+}
