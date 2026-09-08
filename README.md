@@ -8,7 +8,7 @@ In any Claude Code session:
 
 ```
 /plugin marketplace add iantsmall/its-plugins
-/plugin install marquet-playbook@its-plugins
+/plugin install playbook@its-plugins
 ```
 
 The marketplace add is a one-time step per machine. After that, install any plugin from the catalog by name.
@@ -23,7 +23,7 @@ To pick up new plugins or updated versions later:
 
 | Name | What it does |
 | ---- | ------------ |
-| `marquet-playbook` | Shared Claude working-practice guidance, mostly based on the Marquet leadership-language framework (*Turn the Ship Around*, *Leadership Is Language*) — one skill per play: `control-the-clock`, `collaborate-not-coerce`, `commit-not-comply`, `complete-not-continue`, `improve-not-prove`, `connect-not-conform`, `intent-language`, plus `marquet-plays-overview` as a self-triggering index. Also carries `speak-plainly`, a separate personal practice (not from Marquet) for plain, accessible output. Each play self-invokes on its own trigger conditions, so it works ambiently across whatever else Claude is doing — no explicit setup per project. |
+| `playbook` | Shared Claude working-practice guidance, mostly based on the Marquet leadership-language framework (*Turn the Ship Around*, *Leadership Is Language*) — one skill per play: `control-the-clock`, `collaborate-not-coerce`, `commit-not-comply`, `complete-not-continue`, `improve-not-prove`, `connect-not-conform`, `intent-language`, plus `use-the-playbook` as a self-triggering index. Also carries `speak-plainly`, a separate personal practice (not from Marquet) for plain, accessible output. Each play self-invokes on its own trigger conditions, so it works ambiently across whatever else Claude is doing — no explicit setup per project. |
 
 ## Repository layout
 
@@ -32,7 +32,7 @@ its-plugins/
 ├── .claude-plugin/
 │   └── marketplace.json          # Catalog of all plugins in this repo
 ├── plugins/
-│   └── marquet-playbook/
+│   └── playbook/
 │       ├── .claude-plugin/
 │       │   └── plugin.json       # Per-plugin manifest
 │       └── skills/
@@ -67,6 +67,6 @@ There's no enforcement — the version field is informational. Updates flow thro
 
 ## Provenance
 
-`marquet-playbook` started life as `vinemeds-playbook`, built and used inside [VineMeds](https://github.com/VineMeds)'s internal `claude-plugins` marketplace. It moved here since it's personal working-practice guidance rather than VineMeds-specific engineering tooling — nothing in it is company-specific, so it belongs somewhere usable across any project.
+`playbook` started life as `vinemeds-playbook`, built and used inside [VineMeds](https://github.com/VineMeds)'s internal `claude-plugins` marketplace, and was renamed from the interim `marquet-playbook` once `speak-plainly` joined it — it's a personal working-practice playbook *based on* Marquet, not a packaging of his framework alone. Nothing in it is company-specific, so it belongs somewhere usable across any project.
 
 `speak-plainly` started life as a standalone personal skill (`eli5`), folded in here because it's the same kind of guidance (how to communicate) even though it isn't sourced from Marquet's framework.
