@@ -1,7 +1,7 @@
 {
     "name": "marquet-playbook",
-    "description": "Shared Claude working-practice guidance based on the Marquet leadership-language framework (Turn the Ship Around, Leadership Is Language) — one skill per play (control the clock, commit vs comply, red/blue work, intent-based language).",
-    "version": "0.1.0",
+    "description": "Shared Claude working-practice guidance, mostly based on the Marquet leadership-language framework (Turn the Ship Around, Leadership Is Language) — one skill per play (control the clock, commit vs comply, red/blue work, intent-based language) — plus speak-plainly, a separate practice for accessible output.",
+    "version": "0.2.0",
     "author": {
         "name": "Ian T Small",
         "url": "https://github.com/iantsmall"
