@@ -1,0 +1,11 @@
+{
+    "name": "speak-plainly",
+    "description": "A separate personal practice about output register, not from Marquet's leadership-language framework: drop jargon and slow down when tired, overloaded, or asked directly — plain words, active voice, one idea per sentence, load-bearing paths and commands kept exact. Standalone version of the skill also bundled inside `playbook`.",
+    "version": "0.1.0",
+    "author": {
+        "name": "Ian T Small",
+        "url": "https://github.com/iantsmall"
+    },
+    "repository": "https://github.com/iantsmall/its-plugins",
+    "license": "MIT"
+}

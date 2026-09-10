@@ -24,6 +24,7 @@ To pick up new plugins or updated versions later:
 | Name | What it does |
 | ---- | ------------ |
 | `playbook` | Shared Claude working-practice guidance, mostly based on the Marquet leadership-language framework (*Turn the Ship Around*, *Leadership Is Language*) — one skill per play: `control-the-clock`, `collaborate-not-coerce`, `commit-not-comply`, `complete-not-continue`, `improve-not-prove`, `connect-not-conform`, `intent-language`, plus `use-the-playbook` as a self-triggering index. Also carries `speak-plainly`, a separate personal practice (not from Marquet) for plain, accessible output. Each play self-invokes on its own trigger conditions, so it works ambiently across whatever else Claude is doing — no explicit setup per project. |
+| `speak-plainly` | A separate personal practice about output register, not from Marquet's leadership-language framework: drop jargon and slow down when tired, overloaded, or asked directly — plain words, active voice, one idea per sentence, load-bearing paths and commands kept exact. Standalone version of the skill also bundled inside `playbook`, for anyone who wants just this practice on its own. |
 
 ## Repository layout
 
@@ -69,4 +70,4 @@ There's no enforcement — the version field is informational. Updates flow thro
 
 `playbook` started life as `vinemeds-playbook`, built and used inside [VineMeds](https://github.com/VineMeds)'s internal `claude-plugins` marketplace, and was renamed from the interim `marquet-playbook` once `speak-plainly` joined it — it's a personal working-practice playbook *based on* Marquet, not a packaging of his framework alone. Nothing in it is company-specific, so it belongs somewhere usable across any project.
 
-`speak-plainly` started life as a standalone personal skill (`eli5`), folded in here because it's the same kind of guidance (how to communicate) even though it isn't sourced from Marquet's framework.
+`speak-plainly` started life as a standalone personal skill (`eli5`), folded into `playbook` because it's the same kind of guidance (how to communicate) even though it isn't sourced from Marquet's framework. It's now also packaged as its own `speak-plainly` plugin, unchanged in substance, so it can be installed on its own without the rest of the playbook coming along.
