@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: scam-signs-rav4-private-sale
+expected_outcome: |
+  A Skip verdict. The reply names the scam signs (seller out of town, shipping
+  only, a deposit by payment app, a price far below comparable listings) and
+  the curbstoner hint (dealer-lot photos), tells the user plainly not to send
+  the deposit, and points out that 2009 RAV4 four-cylinders used the 2.5L
+  engine, so a "2.4L" 2009 doesn't add up and the VIN would need checking.

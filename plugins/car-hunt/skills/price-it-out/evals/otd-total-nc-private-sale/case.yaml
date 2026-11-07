@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: otd-total-nc-private-sale
+expected_outcome: |
+  An out-the-door table for a $7,800 private-sale car bought in North Carolina
+  and registered in Monroe County, NY: 8% New York sales tax charged at
+  registration ($624), New York title, plate and registration fees as their own
+  line, a pre-purchase inspection, and the cost of getting the car home, with
+  every line marked as a quote, estimate or guess. It compares shipping about
+  700 miles with flying down and driving back, notes that driving needs a
+  temporary plate or transit permit because a private seller keeps the plates,
+  and adds the lines up to an all-in total or range.

@@ -26,6 +26,16 @@
                 "name": "Ian T Small",
                 "url": "https://github.com/iantsmall"
             }
+        },
+        {
+            "name": "car-hunt",
+            "source": "./plugins/car-hunt",
+            "description": "Used-car buying as small, single-purpose skills that hand off to each other: set up a buyer profile, get grilled on what the car must do, find listings in low-salt states, vet listings (title, seller, rust, flood and theft checks), read the history report, plan an independent inspection, price it out the door, negotiate on documented defects, and bring it home and register it — plus ask-car-skills to pick the right one.",
+            "version": "0.1.0",
+            "author": {
+                "name": "Ian T Small",
+                "url": "https://github.com/iantsmall"
+            }
         }
     ]
 }
