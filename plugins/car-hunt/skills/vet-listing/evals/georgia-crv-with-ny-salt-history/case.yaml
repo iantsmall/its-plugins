@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: georgia-crv-with-ny-salt-history
+expected_outcome: |
+  A Maybe (or Skip) verdict, not Buy-track. The reply catches that the car spent
+  about 14 years registered in Buffalo, NY, a salt-belt state, so the "Georgia
+  car, no rust" claim can't be trusted, and asks for daylight underbody photos
+  or an inspection focused on rust. It names this model's weak spots (A/C
+  compressor, AWD rear differential fluid) given the thin service records,
+  confirms the 2002-2006 CR-V has a chip-key immobilizer, asks for the VIN or
+  runs the free VIN checks, and gives ready-to-send seller questions.
