@@ -28,6 +28,16 @@
             }
         },
         {
+            "name": "full-hearts-board",
+            "source": "./plugins/full-hearts-board",
+            "description": "Board meetings for a small nonprofit, as small single-purpose skills that hand off to each other: save the board profile and the bylaw rules, plan the year's meetings, prep a decisions-first agenda and one-page packet, run a 45-minute video meeting, write minutes safe to publish, and follow up so actions land in the task tracker — plus ask-board-skills to pick the right one.",
+            "version": "0.1.0",
+            "author": {
+                "name": "Ian T Small",
+                "url": "https://github.com/iantsmall"
+            }
+        },
+        {
             "name": "car-hunt",
             "source": "./plugins/car-hunt",
             "description": "Used-car buying as small, single-purpose skills that hand off to each other: set up a buyer profile, get grilled on what the car must do, find listings in low-salt states, vet listings (title, seller, rust, flood and theft checks), read the history report, plan an independent inspection, price it out the door, negotiate on documented defects, and bring it home and register it — plus ask-car-skills to pick the right one.",
